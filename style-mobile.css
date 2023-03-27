@@ -1,5 +1,3 @@
-@import url(styles/tablet.css);
-@import url(styles/desktop.css);
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +7,7 @@
     --branco-principal:#FFFFFF;
     --cinza-secundário:#C0C0C0;
     --botao-azul:#167BF7;
-    --cor-de-fundo:#000000;
+    --cor-de-fundo:#00030B;
     --cor-da-divisoria:#80e6ff83;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #80e6ff;
@@ -88,11 +86,16 @@ body {
 }
 
 .secundario {
-    padding: 1.5em 4em 1.5em 4em;
+    margin: 4em;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    align-items: center;
+    gap: 2em;
     border: 1px 1px 1px var(--branco-principal);
+}
+
+img {
+    width: 50%;
 }
 
 .secundario__botao {
@@ -105,14 +108,16 @@ body {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-between;
-    padding: 0.5em;
+    justify-content: center;
+    padding: 2em;
     
 }
 
 .dispositivos {
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+    margin-top: 2em;
+    align-items: center;
 }
 
 .dispositivos__titulo {
@@ -126,6 +131,11 @@ body {
 .rodape {
     text-align: center;
     margin-top: 2em;
+}
+
+.rodape__logo {
+    width:30%;
+    margin: 2em 0;
 }
 
 .rodape__texto {

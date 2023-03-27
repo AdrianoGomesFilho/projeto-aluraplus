@@ -1,18 +1,15 @@
 @media screen and (min-width:1024px) {
+    
+    body {
+        font-size: 1.5em;
+    }
+    
     .divisoria {
         display:none;
     }
-    .principal {
-        background-image: url("assets/Background.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .container {
-        height: 100vh;
-        grid-template-columns: 50% 50%;
+
+    img {
+        width: 40%;
     }
     
     .container__botao {
@@ -56,8 +53,11 @@
     }
     
     .secundario {
+        padding: 1.5em 4em 1.5em 4em;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
         align-items: center;
-        margin: 0 10em;
     }
     
     .descricao__titulo {
@@ -82,9 +82,9 @@
     
     .dispositivos__lista {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         list-style-type: none;
-        margin: 5em 0;
+        margin: 0;
     }
     
     .dispositivos {
@@ -103,9 +103,14 @@
     
     .rodape {
         text-align: center;
-        margin: 5em 3em;
+        margin: 0em 3em;
     }
-    
+
+    .rodape__logo {
+        margin: 0em 0 3em 0;
+        width: 20%;
+    }
+
     .rodape__texto {
         margin: 1em 0;
         color: var(--cinza-secundário);
@@ -116,7 +121,7 @@
         display: flex;
         justify-content: center;
         list-style-type: none;
-        margin-top: 1em;
+        margin-top: 0;
     }
     
     .lista__link a {

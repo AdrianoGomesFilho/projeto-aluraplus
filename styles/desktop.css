@@ -1,25 +1,20 @@
 @media screen and (min-width: 1728px) {
-    .divisoria {
-        display:none;
-    }
-    .principal {
-        background-image: url("assets/Background.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        align-items: center;
-        text-align: center;
-    }
 
-    .container__imagem-instrutores {
-        display: none;
-    }
-    
-    .container {
+    .principal {
         height: 100vh;
+        justify-items: end;
         display: grid;
         grid-template-columns: 50% 50%;
     }
     
+    .container__imagem-instrutores {
+        width: 80vw;
+    }
+
+    .container__imagem-2 {
+        width: 25vw;
+    }
+
     .container__botao {
         background-color: var(--botao-azul);
         border-radius: 5px;
@@ -59,8 +54,11 @@
     }
     
     .secundario {
+        margin: 0em;
+        padding: 5em 8em;
+        display: flex;
+        flex-direction: row-reverse;
         align-items: center;
-        margin: 0 10em;
     }
     
     .descricao__titulo {
@@ -83,16 +81,6 @@
         padding: 2em;
     }
     
-    .dispositivos__lista {
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
-        margin: 5em 0;
-    }
-    
-    .dispositivos {
-        text-align: center;
-    }
     
     .dispositivos__titulo {
         font-size: 48px;
@@ -109,6 +97,11 @@
         margin: 5em 3em;
     }
     
+    .rodape__logo {
+        width:8%;
+        margin: 2em 0;
+    }
+
     .rodape__texto {
         margin: 1em 0;
         color: var(--cinza-secundário);
@@ -117,6 +110,7 @@
     
     .rodape__lista {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         list-style-type: none;
         margin-top: 1em;
