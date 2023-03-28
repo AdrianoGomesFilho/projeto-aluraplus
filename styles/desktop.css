@@ -1,4 +1,4 @@
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1280px) {
 
     .principal {
         height: 100vh;
@@ -46,7 +46,8 @@
     }
     
     .container__caixa {
-        margin: 0 6em;
+        margin: 3em 3em;
+        padding: 0em;
     }
     
     .container__imagem {
@@ -111,15 +112,14 @@
     .rodape__lista {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         list-style-type: none;
         margin-top: 1em;
     }
-    
+
     .lista__link a {
         text-decoration: none;
         color: var(--branco-principal);
-        margin-left: 1em;
+        font-size: 0.7em;
     }
     
     .lista__link a:hover {

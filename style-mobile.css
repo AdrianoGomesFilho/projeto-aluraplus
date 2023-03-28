@@ -45,20 +45,20 @@ body {
 .container__imagem-2 {
     box-shadow: 26px 30px 75px black;
     margin: auto;
-    width: 90%;
+    width: 70%;
 }
 
 .container__caixa {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 0em 2em;
+    padding: 1em 2em;
     margin-top:-5em;
     align-items: center;
 }
 
 .container__titulo {
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 .container__botao {
@@ -72,7 +72,7 @@ body {
     margin-top: 1em;
 }
 .botao__primario {
-    width: 80%;
+    width: 50%;
 }
 .botao__secundario {
     font-size: 1em;
